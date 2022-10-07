@@ -1,0 +1,18 @@
+## sunfish-user 10 QD4A.200805.003 6598198 release-keys
+- Manufacturer: google
+- Platform: sm6150
+- Codename: sunfish
+- Brand: google
+- Flavor: sunfish-user
+- Release Version: 10
+- Id: QD4A.200805.003
+- Incremental: 6598198
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: google/sunfish/sunfish:10/QD4A.200805.003/6598198:user/release-keys
+- OTA version: 
+- Branch: sunfish-user-10-QD4A.200805.003-6598198-release-keys
+- Repo: google_sunfish_dump

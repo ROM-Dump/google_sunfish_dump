@@ -1,0 +1,167 @@
+#line 1 "device/google/coral-sepolicy/vendor/google/property_contexts"
+persist.vendor.radio.RATE_ADAPT_ENABLE          u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.ROTATION_ENABLE            u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.VT_ENABLE                  u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.VT_HYBRID_ENABLE           u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.videopause.mode            u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.smlog_switch               u:object_r:vendor_radio_prop:s0
+
+ro.vendor.radio.log_loc                         u:object_r:vendor_radio_prop:s0
+ro.vendor.radio.log_prefix                      u:object_r:vendor_radio_prop:s0
+
+vendor.all.modules.ready                        u:object_r:vendor_device_prop:s0
+vendor.all.devices.ready                        u:object_r:vendor_device_prop:s0
+vendor.thermal.config                           u:object_r:vendor_thermal_prop:s0
+
+ro.boot.usbcontroller                           u:object_r:vendor_usb_prop:s0
+
+ro.boot.hardware.platform                       u:object_r:public_vendor_default_prop:s0
+
+vendor.powerhal.state                           u:object_r:power_prop:s0
+vendor.powerhal.audio                           u:object_r:power_prop:s0
+vendor.powerhal.lpm                             u:object_r:power_prop:s0
+vendor.powerhal.init                            u:object_r:power_prop:s0
+vendor.powerhal.rendering                       u:object_r:power_prop:s0
+
+vendor.display.primary_red                      u:object_r:vendor_display_prop:s0
+vendor.display.primary_green                    u:object_r:vendor_display_prop:s0
+vendor.display.primary_blue                     u:object_r:vendor_display_prop:s0
+vendor.display.primary_white                    u:object_r:vendor_display_prop:s0
+vendor.display.native_display_primaries_ready   u:object_r:vendor_display_prop:s0
+vendor.display.enable_kernel_idle_timer         u:object_r:vendor_display_prop:s0
+
+# Tcpdump_logger
+persist.vendor.tcpdump.log.alwayson             u:object_r:vendor_tcpdump_log_prop:s0
+vendor.tcpdump.log.ondemand                     u:object_r:vendor_tcpdump_log_prop:s0
+vendor.tcpdump.log.alwayson                     u:object_r:vendor_tcpdump_log_prop:s0
+vendor.tcpdump.output.dir                       u:object_r:vendor_tcpdump_log_prop:s0
+
+#face HAL
+vendor.faceauth.debug                           u:object_r:vendor_faceauth_prop:s0
+vendor.faceauth.debug_entries                   u:object_r:vendor_faceauth_prop:s0
+vendor.faceauth.fake_camera_path                u:object_r:vendor_faceauth_prop:s0
+vendor.faceauth.smudge_ux_threshold             u:object_r:vendor_faceauth_prop:s0
+vendor.faceauth.trace                           u:object_r:vendor_faceauth_prop:s0
+vendor.faceauth.use_fake_camera                 u:object_r:vendor_faceauth_prop:s0
+vendor.faceauth.use_secure_camera               u:object_r:vendor_faceauth_prop:s0
+
+persist.vendor.faceauth.use_disk_cache              u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.require_calibration         u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.run_autocal                 u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.run_autocal_on_success      u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.autocal_depth_score_threshold_auth    u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.autocal_depth_score_threshold_enroll  u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.block_enrollment_on_depth_score       u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.split_autocal               u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.pose_bucket_stages          u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.selection_tuning_frames     u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.enable_migration            u:object_r:vendor_faceauth_prop:s0
+persist.vendor.faceauth.migration_attempt_period    u:object_r:vendor_faceauth_prop:s0
+
+persist.vendor.shutdown.                        u:object_r:vendor_shutdown_prop:s0
+
+# Google camera hal read only props
+ro.vendor.camera.                               u:object_r:camera_ro_prop:s0
+ro.vendor.camera.res.fmq.size                   u:object_r:camera_ro_prop:s0
+ro.vendor.camera.req.fmq.size                   u:object_r:camera_ro_prop:s0
+
+ro.vendor.build.type                            u:object_r:vendor_build_type_prop:s0
+
+ro.vendor.aware_available                       u:object_r:vendor_aware_available_prop:s0
+
+persist.vendor.modem.                           u:object_r:vendor_modem_prop:s0
+persist.vendor.mdm.                             u:object_r:vendor_modem_prop:s0
+
+# ramoops
+vendor.ramoops.                                 u:object_r:vendor_ramoops_prop:s0
+
+# SecureElement
+persist.vendor.se.                              u:object_r:vendor_secure_element_prop:s0
+#line 1 "device/google/coral-sepolicy/vendor/qcom/common/property_contexts"
+# vendor_audio_prop
+vendor.audio.adm.buffering.ms                   u:object_r:vendor_audio_prop:s0
+vendor.audio.snd_card.open.retries              u:object_r:vendor_audio_prop:s0
+
+ro.boot.sota                                    u:object_r:factory_ota_prop:s0
+persist.vendor.factoryota.reboot                u:object_r:exported_system_prop:s0
+persist.vendor.radio.bootwithlpm                u:object_r:exported_system_prop:s0
+
+vendor.audio.volume.listener.dump               u:object_r:vendor_audio_prop:s0
+vendor.audio.volume.headset.gain.depcal         u:object_r:vendor_audio_prop:s0
+vendor.audio_hal.in_period_size                 u:object_r:vendor_audio_prop:s0
+vendor.audio_hal.period_multiplier              u:object_r:vendor_audio_prop:s0
+vendor.audio_hal.period_size                    u:object_r:vendor_audio_prop:s0
+persist.vendor.audio.dualmic.config             u:object_r:vendor_audio_prop:s0
+
+persist.vendor.audio.fluence.speaker            u:object_r:vendor_audio_prop:s0
+persist.vendor.audio.fluence.voicecall          u:object_r:vendor_audio_prop:s0
+persist.vendor.audio.fluence.voicecomm          u:object_r:vendor_audio_prop:s0
+persist.vendor.audio.fluence.voicerec           u:object_r:vendor_audio_prop:s0
+
+persist.camera.                                 u:object_r:camera_prop:s0
+vendor.debug.camera.                            u:object_r:camera_prop:s0
+persist.vendor.camera.                          u:object_r:camera_prop:s0
+persist.vendor.sys.cnd                          u:object_r:cnd_vendor_prop:s0
+persist.vendor.cnd.wqe                          u:object_r:cnd_vendor_prop:s0
+persist.vendor.cne.feature                      u:object_r:cnd_vendor_prop:s0
+persist.vendor.cne.logging.qxdm                 u:object_r:cnd_vendor_prop:s0
+persist.vendor.net.doxlat                       u:object_r:vendor_xlat_prop:s0
+persist.vendor.radio                            u:object_r:vendor_radio_prop:s0
+persist.vendor.sys.modem.diag.                  u:object_r:vendor_modem_diag_prop:s0
+
+# vendor_bluetooth_prop
+persist.vendor.bluetooth.a4wp                   u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.bluetooth.csoc.cnt               u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.service.bdroid.fwsnoop           u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.service.bdroid.sibs              u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.service.bdroid.snooplog          u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.service.bdroid.soclog            u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.service.bdroid.ssrlvl            u:object_r:vendor_bluetooth_prop:s0
+ro.vendor.bluetooth.emb_wp_mode                 u:object_r:vendor_bluetooth_prop:s0
+ro.vendor.bluetooth.wipower                     u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.bt.soc.scram_freqs               u:object_r:vendor_bluetooth_prop:s0
+
+ro.vendor.audio.sdk.fluencetype                 u:object_r:vendor_audio_prop:s0
+ro.vendor.ril.                                  u:object_r:vendor_radio_prop:s0
+ro.boot.ramdump                                 u:object_r:vendor_ramdump_prop:s0
+
+# vendor display prop
+vendor.gralloc.disable_ahardware_buffer         u:object_r:vendor_display_prop:s0
+vendor.gralloc.use_system_heap_for_sensors      u:object_r:vendor_display_prop:s0
+vendor.gralloc.disable_ubwc                     u:object_r:vendor_display_prop:s0
+vendor.debug.egl.changepixelformat              u:object_r:vendor_display_prop:s0
+vendor.debug.egl.profiler                       u:object_r:vendor_display_prop:s0
+vendor.debug.prerotation.disable                u:object_r:vendor_display_prop:s0
+vendor.debug.egl.swapinterval                   u:object_r:vendor_display_prop:s0
+ro.vendor.graphics.memory                       u:object_r:vendor_display_prop:s0
+
+vendor.debug.ramdump.                           u:object_r:vendor_ramdump_prop:s0
+vendor.ims.                                     u:object_r:qcom_ims_prop:s0
+vendor.peripheral.                              u:object_r:vendor_per_mgr_state_prop:s0
+vendor.sys.listeners.registered                 u:object_r:vendor_tee_listener_prop:s0
+# Disable SPU
+vendor.gatekeeper.disable_spu                   u:object_r:vendor_disable_spu_prop:s0
+vendor.usb.                                     u:object_r:vendor_usb_prop:s0
+vendor.wlan.driver.version                      u:object_r:vendor_wifi_version:s0
+vendor.wlan.firmware.version                    u:object_r:vendor_wifi_version:s0
+vendor.radio                                    u:object_r:vendor_radio_prop:s0
+vendor.spcom.                                   u:object_r:spcomlib_prop:s0
+vendor.sys.modem.diag.                          u:object_r:vendor_modem_diag_prop:s0
+vendor.debug.ssrdump                            u:object_r:vendor_ssr_prop:s0
+
+persist.vendor.sys.cnss.                        u:object_r:vendor_cnss_diag_prop:s0
+persist.vendor.sys.ssr.                         u:object_r:vendor_ssr_prop:s0
+
+ctl.vendor.rmt_storage                          u:object_r:ctl_vendor_rmt_storage_prop:s0
+
+vendor.sys.slpi.firmware.version                       u:object_r:public_vendor_system_prop:s0
+
+vendor.media.ecoservice.log.                    u:object_r:ecoservice_prop:s0
+
+persist.vendor.data.netmgr.log_to_file          u:object_r:vendor_default_prop:s0
+persist.vendor.ims.                             u:object_r:qcom_ims_prop:s0
+persist.vendor.qti.telephony.vt_cam_interface   u:object_r:public_vendor_default_prop:s0
+#line 1 "system/sepolicy/reqd_mask/property_contexts"
+# empty property_contexts file - this file is used to generate an empty
+# non-platform property context for devices without any property_contexts
+# customizations.

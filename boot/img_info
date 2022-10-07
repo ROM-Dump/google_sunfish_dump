@@ -1,0 +1,15 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=4096
+dt=dtb.img
+kernel_size=21177780
+ramdisk_size=10539470
+dtb_offset=0x01f00000
+dtb_size=425330
+base_addr=0x00000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0x00000000
+cmd_line='console=ttyMSM0,115200n8 androidboot.console=ttyMSM0 printk.devkmsg=on msm_rtb.filter=0x237 ehci-hcd.park=3 service_locator.enable=1 androidboot.memcg=1 cgroup.memory=nokmem lpm_levels.sleep_disabled=1 usbcore.autosuspend=7 loop.max_part=7 androidboot.usbcontroller=a600000.dwc3 swiotlb=1 androidboot.boot_devices=soc/1d84000.ufshc buildvariant=user'
+board=""
