@@ -1,0 +1,19 @@
+user=system seinfo=platform name=com.google.SSRestartDetector domain=ssr_detector_app type=system_app_data_file
+user=_app seinfo=platform name=com.android.ramdump domain=ramdump_app type=app_data_file levelFrom=all
+user=_app isPrivApp=true seinfo=platform name=com.google.android.grilservice domain=grilservice_app levelFrom=all
+user=_app seinfo=google name=com.google.mds domain=modem_diagnostic_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.android.pixellogger domain=logger_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.google.googlecbrs domain=cbrs_setup_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.google.touch.touchinspector domain=google_touch_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.android.hbmsvmanager domain=hbmsvmanager_app type=app_data_file levelFrom=all
+user=radio seinfo=platform name=.dataservices domain=dataservice_app type=radio_data_file
+user=_app seinfo=platform name=com.google.android.hardwareinfo domain=hardware_info_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.google.android.factoryota domain=factory_ota_app levelFrom=all
+user=radio isPrivApp=true seinfo=platform name=com.google.RilConfigService domain=ril_config_service_app type=app_data_file
+user=radio seinfo=platform name=.qtidataservices domain=qtidataservices_app type=radio_data_file
+user=_app isPrivApp=true seinfo=platform name=com.google.android.connectivitymonitor domain=con_monitor_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.services.secureui* domain=secure_ui_service_app levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.timeservice domain=timeservice_app type=app_data_file
+user=_app seinfo=google name=com.google.android.GoogleCamera domain=google_camera_app type=app_data_file levelFrom=all
+user=_app seinfo=googlepulse name=com.google.android.apps.googlecamera.fishfood domain=google_camera_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.telephony domain=qtelephony type=app_data_file levelFrom=all
